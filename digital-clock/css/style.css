@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100;300;500&family=DM+Mono:wght@300;500&display=swap');
+
 *{
 	margin: 0;
 	padding: 0;
 }
 
 body{
-	background: url('../img/tokyo-night.jpg');
+	background: url('../img/city1.jpg');
 	background-size: cover;
 	background-position: center;
+
 }
 
 main{
@@ -16,16 +20,18 @@ main{
 	align-items: center;
 	height: 100vh;
 	width: 100vw;
+	border: 1px solid white;
 }
 
-h2{
+.title{
 	color: white;
 	margin: 10px;
 	letter-spacing: 4px;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	font-weight: bold;
-	background-color: black;
-	opacity: 0.5;
+	opacity: 0.9;
+	padding: 10px;
+	font-size: 70px;
 }
 
 #clock-container{
@@ -68,3 +74,20 @@ h2{
 	text-transform: uppercase;
 	font-weight: bold;
 }
+
+#smart-clock{
+	font-family: 'Nova Mono', monospace;
+	text-align: center;
+	background-color: #e91e63;
+	margin-top: 35px;
+	padding: 15px;
+	border-radius: 20px;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+}
+
+.hide{
+	display: none;
+}
+

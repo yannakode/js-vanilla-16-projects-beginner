@@ -4,9 +4,9 @@
 	<title>DIGITAL CLOCK</title>
 </head>
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<body>
+<body onload="clock(),unblockSmart()">
 	<main>
-		<h2>Digital clock</h2>
+		<h2 class="title">Digital clock</h2>
 		<section id="clock-container">
 			<div class="clock">
 				<span id="hours">00</span>
@@ -22,6 +22,18 @@
 			</div>
 			<div class="ampm clock">
 				<p id="ampm">ampm</p>
+			</div>
+		</section>
+
+		<section id="smart-clock">
+			<div class="smart-data">
+				<span class="week">Dom</span>
+				<span class="data">20/20/2020</span>
+			</div>
+
+			<div class="smart-weather hide">
+				<span class="city"></span>
+				<h2>🌡<span class="temp"></span>°C 💧<span class="umidity"></span></h2>
 			</div>
 		</section>
 	</main>

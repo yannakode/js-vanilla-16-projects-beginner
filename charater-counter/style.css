@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #32013270;
+}
+
+#ctn{
+	background-color: #80008070;
+	padding: 20px;
+	border-radius: 15px;
+	text-align: center;
+	width: 400px;
+	height: 200px;
+}
+
+h1{
+	padding: 10px;
+}
+
+#textArea{
+	height: 100px;
+	width: 400px;
+	font-size: 20px;
+	resize: none;
+}
+
+#ctn-counter{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 30px;
+}
+
+#ctn-counter p{
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
